@@ -1,5 +1,6 @@
 import React from "react"
 import Table from "./Table/index"
+import Doughnut from "./DoughnutChart/index"
 
 function App() {
     return (
@@ -18,6 +19,7 @@ function App() {
                 </a>
             </header>
             <Table />
+            <Doughnut />
         </div>
     )
 }
